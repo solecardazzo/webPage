@@ -1,0 +1,207 @@
+html>
+    <head>
+        <title>GeeksforGeeks</title>
+        <meta name="viewport"
+              secondSection="width=device-width,
+                             initial-scale=1" />
+        <style>
+            body {
+                margin: 0;
+                font-size: 26px;
+                font-family: sans-serif;
+            }
+
+            .firstSection {
+                background-color: #fa8072;
+                padding: 30px;
+                text-align: left;
+            }
+
+            #navbarSection {
+                overflow: hidden;
+                background-color: #c71585;
+            }
+
+            #navbarSection a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 16px 16px;
+                text-decoration: none;
+                font-size: 16px;
+            }
+
+            #navbarSection a:hover {
+                background-color: #ffe4b5;
+                color: black;
+            }
+
+            #navbarSection a.active {
+                background-color: red;
+                color: white;
+            }
+
+            #secondSection {
+                padding: 16px 35px;
+                padding-top: 0;
+                background-color: #66cdaa;
+            }
+
+            .stickyNavbar {
+                position: sticky;
+                top: 0;
+                width: 100%;
+            }
+
+            .stickyNavbar,
+            #secondSection {
+                padding-top: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="navbarSection">
+            <a class="active" href="#">Home</a>
+            <a href="#">Page 1</a>
+            <a href="#">Page 2</a>
+        </div>
+
+        <div class="firstSection">
+            <h2>This is the first section. Scroll down
+              to see the effects of sticky navbar on
+              first section and absolute on other
+              section.</h2>
+            <b> Some texts to fill the section </b>
+            <p>
+                HTML stands for Hyper Text Markup
+              Language. It is used to design web pages
+              using markup language. HTML is the
+              combination of Hypertext and Markup
+
+            </p>
+        </div>
+
+        <div id="secondSection">
+            <br />
+            <br />
+            <br />
+            <h3>From here First section ends and second
+              start in which navbar should not be sticky.
+          </h3>
+            <br />
+            <b> Some texts to fill the section </b>
+            <p>
+                HTML stands for Hyper Text Markup Language.
+              It is used to design web pages using markup
+              language. HTML is the combination of Hypertext
+              and Markup language. Hypertext defines the
+              link between the web pages. Markup language is
+                used to define the text document within
+              tag which defines the structure of web pages.
+              HTML is a markup language which is used by
+              the browser to manipulate text, images and
+              other content to display it in required format.
+              HTML stands for Hyper Text Markup
+            Language. It is used to design web pages
+            using markup language. HTML is the
+            combination of Hypertext and Markup
+            language. Hypertext defines the link
+            between the web pages. Markup language is
+              used to define the text document
+            within tag which defines the structure
+            of web pages. HTML is a markup language
+            which is used by the browser to manipulate
+            text, images and other content to display
+            it in required format.
+            HTML stands for Hyper Text Markup
+          Language. It is used to design web pages
+          using markup language. HTML is the
+          combination of Hypertext and Markup
+          language. Hypertext defines the link
+          between the web pages. Markup language is
+            used to define the text document
+          within tag which defines the structure
+          of web pages. HTML is a markup language
+          which is used by the browser to manipulate
+          text, images and other content to display
+          it in required format.
+
+
+          HTML stands for Hyper Text Markup
+        Language. It is used to design web pages
+        using markup language. HTML is the
+        combination of Hypertext and Markup
+        language. Hypertext defines the link
+        between the web pages. Markup language is
+          used to define the text document
+        within tag which defines the structure
+        of web pages. HTML is a markup language
+        which is used by the browser to manipulate
+        text, images and other content to display
+        it in required format.
+
+        HTML stands for Hyper Text Markup
+      Language. It is used to design web pages
+      using markup language. HTML is the
+      combination of Hypertext and Markup
+      language. Hypertext defines the link
+      between the web pages. Markup language is
+        used to define the text document
+      within tag which defines the structure
+      of web pages. HTML is a markup language
+      which is used by the browser to manipulate
+      text, images and other content to display
+      it in required format.
+
+      HTML stands for Hyper Text Markup
+    Language. It is used to design web pages
+    using markup language. HTML is the
+    combination of Hypertext and Markup
+    language. Hypertext defines the link
+    between the web pages. Markup language is
+      used to define the text document
+    within tag which defines the structure
+    of web pages. HTML is a markup language
+    which is used by the browser to manipulate
+    text, images and other content to display
+    it in required format.
+    HTML stands for Hyper Text Markup
+  Language. It is used to design web pages
+  using markup language. HTML is the
+  combination of Hypertext and Markup
+  language. Hypertext defines the link
+  between the web pages. Markup language is
+    used to define the text document
+  within tag which defines the structure
+  of web pages. HTML is a markup language
+  which is used by the browser to manipulate
+  text, images and other content to display
+  it in required format.
+            </p>
+        </div>
+
+        <script>
+            window.onscroll = function () {
+                myFunction();
+            };
+
+            var navbarConst =
+                document.getElementById("navbarSection");
+            var stickyConst = navbarConst.offsetTop;
+            var navbarOther =
+                document.getElementById("secondSection");
+            var stickyOther = navbarOther.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset >= stickyOther) {
+                    navbarSection.classList.remove(
+                      "stickyNavbar");
+                } else {
+                    navbarSection.classList.add(
+                      "stickyNavbar");
+                }
+            }
+        </script>
+    </body>
+</html>
