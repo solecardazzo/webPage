@@ -1,4 +1,4 @@
-<section class="showcase">
+<section class="showcase" id="parallax">
   <div class="video-container">
     <video src="img/Clouds.mp4" autoplay muted loop></video>
   </div>
