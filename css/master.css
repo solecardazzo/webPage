@@ -287,7 +287,9 @@ footer h2 {
 }
 
 @media screen and (max-width: 767px) {
-
+	header .social-list {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 491px) {
