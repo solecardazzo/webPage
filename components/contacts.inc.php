@@ -32,7 +32,7 @@
         <div class="contacts-data">
           <a href="mailto:pronosticosheladass@gmail.com?Subject=Consulta%20" title="Mail Pronosticos heladas">
             <i class="fa fa-paper-plane fa-2x" title="Mail Pronosticos heladas"></i>
-            <span class="contact-text-pronosticosheladas" title="Mail Pronosticos heladas">pronosticosheladas@gmail.com</span>
+            <span class="contact-text-pronosticosheladas email-responsive" title="Mail Pronosticos heladas">pronosticosheladas@gmail.com</span>
           </a>
         </div>
         <div class="contacts-data">
