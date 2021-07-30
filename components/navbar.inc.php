@@ -21,6 +21,11 @@
               <i class="fa fa-twitter fa-2x" title="Twitter Aprilis" aria-hidden="true"></i>
             </a>
           </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCfZpQaq0w41K6dTTUQfEWOA" target="_blank">
+              <i class="fa fa-youtube-play fa-2x" title="YouTube Aprilis" aria-hidden="true"></i>
+            </a>
+          </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li data-elem="parallax"><a href="#home">HOME</a></li>

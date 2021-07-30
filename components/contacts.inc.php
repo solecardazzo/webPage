@@ -12,6 +12,11 @@
           <i class="fa fa-twitter fa-3x" title="Twitter Aprilis" aria-hidden="true"></i>
         </a>
       </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCfZpQaq0w41K6dTTUQfEWOA" target="_blank">
+          <i class="fa fa-youtube-play fa-3x" title="Twitter Aprilis" aria-hidden="true"></i>
+        </a>
+      </li>
     </ul>
     <div class="row contact">
       <div class="col-md-6">
