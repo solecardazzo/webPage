@@ -1,92 +1,55 @@
-class StickyNavigation {
+$(document).ready(function(){
 
-	constructor() {
-		this.currentId = null;
-		this.currentTab = null;
-		this.tabContainerHeight = 70;
-		this.lastScroll = 0;
-		let self = this;
-		$('.sticky-nav-tab').click(function() {
-			self.onTabClick(event, $(this));
+	// Variables
+	var clickedTab = $(".tabs > .active");
+	var tabWrapper = $(".tab__content");
+	var activeTab = tabWrapper.find(".active");
+	var activeTabHeight = activeTab.outerHeight();
+
+	// Show tab on page load
+	activeTab.show();
+
+	// Set height of wrapper on page load
+	tabWrapper.height(activeTabHeight);
+
+	$(".tabs > li").on("click", function() {
+
+		// Remove class from active tab
+		$(".tabs > li").removeClass("active");
+
+		// Add class active to clicked tab
+		$(this).addClass("active");
+
+		// Update clickedTab variable
+		clickedTab = $(".tabs .active");
+
+		// fade out active tab
+		activeTab.fadeOut(250, function() {
+
+			// Remove active class all tabs
+			$(".tab__content > li").removeClass("active");
+
+			// Get index of clicked tab
+			var clickedTabIndex = clickedTab.index();
+
+			// Add class active to corresponding tab
+			$(".tab__content > li").eq(clickedTabIndex).addClass("active");
+
+			// update new active tab
+			activeTab = $(".tab__content > .active");
+
+			// Update variable
+			activeTabHeight = activeTab.outerHeight();
+
+			// Animate height of wrapper to new tab height
+			tabWrapper.stop().delay(50).animate({
+				height: activeTabHeight
+			}, 500, function() {
+
+				// Fade in active tab
+				activeTab.delay(50).fadeIn(250);
+
+			});
 		});
-		$(window).scroll(() => { this.onScroll(); });
-		$(window).resize(() => { this.onResize(); });
-	}
-
-	onTabClick(event, element) {
-		event.preventDefault();
-		let scrollTop = $(element.attr('href')).offset().top - this.tabContainerHeight + 1;
-		$('html, body').animate({ scrollTop: scrollTop }, 600);
-	}
-
-	onScroll() {
-		this.checkHeaderPosition();
-    this.findCurrentTabSelector();
-		this.lastScroll = $(window).scrollTop();
-	}
-
-	onResize() {
-		if(this.currentId) {
-			this.setSliderCss();
-		}
-	}
-
-	checkHeaderPosition() {
-		const headerHeight = 75;
-		if($(window).scrollTop() > headerHeight) {
-			$('.spa-header').addClass('spa-header--scrolled');
-		} else {
-			$('.spa-header').removeClass('spa-header--scrolled');
-		}
-		let offset = ($('.sticky-nav-tabs').offset().top + $('.sticky-nav-tabs').height() - this.tabContainerHeight) - headerHeight;
-		if($(window).scrollTop() > this.lastScroll && $(window).scrollTop() > offset) {
-			$('.spa-header').addClass('spa-header--move-up');
-			$('.sticky-nav-tabs-container').removeClass('sticky-nav-tabs-container--top-first');
-			$('.sticky-nav-tabs-container').addClass('sticky-nav-tabs-container--top-second');
-		}
-		else if($(window).scrollTop() < this.lastScroll && $(window).scrollTop() > offset) {
-			$('.spa-header').removeClass('spa-header--move-up');
-			$('.sticky-nav-tabs-container').removeClass('sticky-nav-tabs-container--top-second');
-			$('.sticky-nav-tabs-container').addClass('sticky-nav-tabs-container--top-first');
-		}
-		else {
-			$('.spa-header').removeClass('spa-header--move-up');
-			$('.sticky-nav-tabs-container').removeClass('sticky-nav-tabs-container--top-first');
-			$('.sticky-nav-tabs-container').removeClass('sticky-nav-tabs-container--top-second');
-		}
-	}
-
-	findCurrentTabSelector(element) {
-		let newCurrentId;
-		let newCurrentTab;
-		let self = this;
-		$('.sticky-nav-tab').each(function() {
-			let id = $(this).attr('href');
-			let offsetTop = $(id).offset().top - self.tabContainerHeight;
-			let offsetBottom = $(id).offset().top + $(id).height() - self.tabContainerHeight;
-			if($(window).scrollTop() > offsetTop && $(window).scrollTop() < offsetBottom) {
-				newCurrentId = id;
-				newCurrentTab = $(this);
-			}
-		});
-		if(this.currentId != newCurrentId || this.currentId === null) {
-			this.currentId = newCurrentId;
-			this.currentTab = newCurrentTab;
-			this.setSliderCss();
-		}
-	}
-
-	setSliderCss() {
-		let width = 0;
-		let left = 0;
-		if(this.currentTab) {
-			width = this.currentTab.css('width');
-			left = this.currentTab.offset().left;
-		}
-		$('.sticky-nav-tab-slider').css('width', width);
-		$('.sticky-nav-tab-slider').css('left', left);
-	}
-
-}
-
-new StickyNavigation();
+	});
+});
