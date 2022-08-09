@@ -276,7 +276,7 @@ nav.navbar {
 
 /*about*/
 .about {
-    background: #f2fedc;
+    background: #eee;
     padding-bottom: 3%;
 }
 .about-content {
@@ -322,7 +322,7 @@ nav.navbar {
     /* vertical-align: baseline; */
 }
 .social-footer {
-    background: #eee;
+    background: #fff;
 }
 .social-footer h2 {
 		font-family: 'Gruppo', cursive;
@@ -371,7 +371,7 @@ nav.navbar {
 
 /*footer*/
 footer {
-    background: #eee;
+    background: #fff;
     background-size: cover;
     color: #000;
 }
