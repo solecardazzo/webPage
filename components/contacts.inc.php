@@ -14,7 +14,7 @@
       </li>
       <li>
         <a href="https://www.youtube.com/channel/UCfZpQaq0w41K6dTTUQfEWOA" target="_blank">
-          <i class="fa fa-youtube-play fa-3x" title="Twitter Aprilis" aria-hidden="true"></i>
+          <i class="fa fa-youtube-play fa-3x" title="YouTube Aprilis" aria-hidden="true"></i>
         </a>
       </li>
     </ul>

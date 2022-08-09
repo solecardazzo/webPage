@@ -132,7 +132,7 @@ nav.navbar {
 	font-size: 15px;
 	font-weight: 80;
 	line-height: 2;
-	margin: 1% 0 2%;
+	margin: 1% 0 1%;
 }
 .wrapper {
 	padding: 100px 20px;
@@ -213,15 +213,10 @@ nav.navbar {
   text-align: center;
   border-radius: 5px;
   width: 100%;
-  padding: 45px 40px 40px 40px;
+  padding: 45px 40px 40px 10px;
   background-color: #eee8a9;
 }
-.content__wrapper h2 {
-  width: 100%;
-  text-align: center;
-  padding-bottom: 20px;
-  font-weight: 300;
-}
+
       /* pagina web */
 .card-1 {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -231,36 +226,49 @@ nav.navbar {
   box-shadow: 0 14px 28px rgba(0,0,0,0.65), 0 10px 10px rgba(0,0,0,0.62);
 }
      /*-------- Base de datos --------*/
-.features {
-display: flex;
-flex-flow: row wrap;
-justify-content: space-around;
-align-items: center;
-text-align: center;
-height: auto;
-z-index: 1;
-}
 .feature-card {
-flex-basis: 200px;
-margin: 1vw;
-padding: 40px 10px;
-background-color: white;
-border-radius: 5px 25px;
-height: auto;
-transition: border-radius 0.6s ease;
+ display: flex;
+ flex-direction: row;
+ height: 100%;
+ width: 100%;
+ padding-bottom: 25px;
 }
-.feature-card:hover {
-border-radius: 25px 5px;
+.feature-card .icon {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100%;
+ margin: 0;
+ width: 20%;
 }
-.feature-card > strong {
-line-height: 50px;
+.zoom {
+    transition: transform .2s;
 }
-.icons {
-margin-bottom: 10px;
+.zoom:hover {
+    transform: scale(1.5);
 }
-.feature-card:first-child .icons,
-.feature-card:last-child .icons {
-margin-bottom: 1px;
+.feature-card .description {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin-left: 2%;
+ text-align: justify;
+ width: 100%;
+}
+.feature-card .description * {
+ margin: 0;
+ text-align: start;
+}
+.feature-card .description h2 {
+ font-size: 2.1rem;
+ font-weight: bold;
+
+}
+.feature-card .description p {
+ color: black;
+ font-family: 'Share Tech Mono', monospace;
+ font-size: 1.3rem;
+ font-weight: 80;
 }
 
 /*products*/
@@ -269,6 +277,7 @@ margin-bottom: 1px;
 /*about*/
 .about {
     background: #f2fedc;
+    padding-bottom: 3%;
 }
 .about-content {
     margin-top: 7%;
@@ -285,9 +294,8 @@ margin-bottom: 1px;
     line-height: 2;
     margin: 5% 0 7%;
 }
-.imagen-about {
-	height: 80px;
-}
+
+
 /*about end*/
 
 
@@ -458,28 +466,3 @@ footer h2 {
 @media screen and (max-width: 491px) {
 
 }
-
-/* @media (max-width: 990px) {
-    .contacts-data {
-        text-align: center;
-				font-size: 1.1rem;
-				letter-spacing: 0.1rem;
-		    padding-left: 0%;
-    }
-		.scroll-down {
-				display: none;
-		}
-}
-@media (max-width: 767px) {
-    header .social-list {
-        display: none;
-    }
-    .skills img {
-        width: 65%;
-    }
-		footer .contact-text .contact-text-pronosticosheladas{
-				font-size: 1.1rem;
-				letter-spacing: 0.1rem;
-		    padding-left: 0%;
-		}
-} */
