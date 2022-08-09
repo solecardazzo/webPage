@@ -9,18 +9,18 @@
     <li class="active">
       <div class="content__wrapper">
         <p class="text-color col-lg-12 col-md-12 col-sm-12 col-xs-12" >A pesar de los impresionantes avances en  la tecnología las actividades económicas siguen dependiendo del tiempo y el clima.
-          En particular, el daño causado por las heladas a los cultivos ha sido un problema para los humanos desde que comenzaron los primeros cultivos. Incluso si todos los aspectos de la producción agrícola están bien gestionados, una noche de temperaturas bajo cero puede provocar la pérdida parcial o total de la cosecha.
-          <br> En la actualidad las tierras utilizadas para la agricultura ocupan el 11 % de las tierras habitables del planeta donde las heladas perjudican y malogran entre un <strong>5</strong> y <strong>15 %</strong> de la producción mundial anual y se gastan millones de dólares en mecanismos para la protección de este fenómeno.
+          En particular, si todos los aspectos de la producción agrícola están bien gestionados, una noche de temperaturas bajo cero puede provocar la pérdida parcial o total de la cosecha.
         </p>
         <a href="http://www.pronosticosheladas.com/" title="Pronosticos heladas" target="_blank">
           <img src="img/paginaHeladas.png" class="img-responsive col-lg-7 col-md-7 col-sm-7 col-xs-12 card-1" >
         </a>
-        <p class="text-color col-lg-5 col-md-5 col-sm-5 col-xs-12" >Es en este sentido es que Aprilis viene a transformar lo hasta ahora conocido en una solución meteorológica brindando un pronóstico de heladas a nivel global utilizando las herramientas más avanzadas de modelización numérica.
-        <br> En nuestra página web se puede consultar dos productos:
+        <p class="text-color col-lg-5 col-md-5 col-sm-5 col-xs-12" > En la actualidad las tierras utilizadas para la agricultura ocupan el 11 % de las tierras habitables del planeta donde las heladas perjudican y malogran entre un <strong>5</strong> y <strong>15 %</strong> de la producción mundial anual y se gastan millones de dólares en mecanismos para la protección de este fenómeno.
+          <br>Es en este sentido es que Aprilis viene a transformar lo hasta ahora conocido en una solución meteorológica brindando un <strong>pronóstico de heladas a nivel global</strong> utilizando las herramientas más avanzadas de modelización numérica.
+        <!-- <br> En nuestra página web se puede consultar dos productos:
           <ul class="text-color">
               <li type="square"> Intensidad de heladas leves, moderadas o fuertes para los próximos 9 días</li>
               <li type="square"> Probabilidad de ocurrencia de intensidad de heladas (también leves, moderadas o fuertes) para los próximos 15 días.</li>
-          </ul>
+          </ul> -->
         </p>
       </div>
     </li>
@@ -28,7 +28,7 @@
       <div class="content__wrapper">
         <section>
           <p class="text-color col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-3" >Mediante nuestra API se pueden realizar consultas en tiempo real en forma puntual, regional o mundial de los pronósticos disponibles en nuestra base de datos a través de un abono mensual con planes acordes a las necesidades de cada cliente.
-          <br>Estos pronósticos están disponibles para ser utilizados por las empresas como una innovadora herramienta de información.
+          <!-- <br>Estos pronósticos están disponibles para ser utilizados por las empresas como una innovadora herramienta de información. -->
           </p>
           <div class="feature-card">
               <div class="icon">
@@ -69,11 +69,5 @@
         </section>
       </div>
     </li>
-    <!-- <li>
-      <div class="content__wrapper">
-        <p class="text-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure iste mollitia autem voluptates earum, optio doloremque ipsam voluptatum blanditiis consequatur! Ipsum veniam quas aliquid fugiat omnis nostrum accusantium eligendi esse! </p>
-
-      </div>
-    </li> -->
   </ul>
 </section>

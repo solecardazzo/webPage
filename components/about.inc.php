@@ -3,9 +3,9 @@
     <div class="row">
       <div class="text-center about-content">
         <h2>nosotros</h2>
-        <p class="about-text">Somos una empresa especializada en servicios meteorológicos, que opera a nivel <strong>global</strong> usando las herramientas más avanzadas de modelización numérica. Nuestros principales ámbitos de actuación son la gestión de riesgos y en específico las heladas.
+        <p class="about-text"><strong>Aprilis</strong> es una empresa especializada en servicios meteorológicos, que opera a nivel <strong>global</strong> usando las herramientas más avanzadas de modelización numérica. Nuestros principales ámbitos de actuación son la gestión de riesgos y en específico las heladas.
           <br>Nuestra base científica unida a nuestro enfoque de mejorar resultados nos lleva a crear soluciones tecnológicas personalizadas, que facilitan la toma de decisiones relacionadas tanto con la sostenibilidad como con la excelencia operacional.
-          <br>Aprilis está formada por dos meteorólogos, que comprenden tanto de modelos de pronóstico numérico como de soluciones tecnológicas y las integran, mediante su inteligencia aplicada a las empresas e instituciones, tratando de solventar los problemas y necesidades.
+          <!-- <br>Aprilis está formada por dos meteorólogos, que comprenden tanto de modelos de pronóstico numérico como de soluciones tecnológicas y las integran, mediante su inteligencia aplicada a las empresas e instituciones, tratando de solventar los problemas y necesidades. -->
         </p>
         <!-- <img src="img/grupo.jpeg" alt="about me" class="image-responsive img-circle img-thumbnail center-block about-imagen"> -->
         <div class="row">
