@@ -11,7 +11,7 @@
         <p class="text-color col-lg-12 col-md-12 col-sm-12 col-xs-12" >A pesar de los impresionantes avances en  la tecnología las actividades económicas siguen dependiendo del tiempo y el clima.
           En particular, si todos los aspectos de la producción agrícola están bien gestionados, una noche de temperaturas bajo cero puede provocar la pérdida parcial o total de la cosecha.
         </p>
-        <a href="http://www.pronosticosheladas.com/" title="Pronosticos heladas" target="_blank">
+        <a href="https://www.pronosticosheladas.com/" title="Pronosticos heladas" target="_blank">
           <img src="img/paginaHeladas.png" class="img-responsive col-lg-7 col-md-7 col-sm-7 col-xs-12 card-1" >
         </a>
         <p class="text-color col-lg-5 col-md-5 col-sm-5 col-xs-12" > En la actualidad las tierras utilizadas para la agricultura ocupan el 11 % de las tierras habitables del planeta donde las heladas perjudican y malogran entre un <strong>5</strong> y <strong>15 %</strong> de la producción mundial anual y se gastan millones de dólares en mecanismos para la protección de este fenómeno.
@@ -22,6 +22,13 @@
               <li type="square"> Probabilidad de ocurrencia de intensidad de heladas (también leves, moderadas o fuertes) para los próximos 15 días.</li>
           </ul> -->
         </p>
+      </div>
+      <div class="content__wrapper">
+        <p class="text-color col-lg-12 col-md-12 col-sm-12 col-xs-12" >La necesidad de pronósticos especializados, asesoría e información meteorológica está creciendo rápidamente a medida que la industria y los medios de comunicación se dan cuenta del valor económico de la información precisa y oportuna, estar preparado marca la diferencia entre un desastre comercial o simplemente un pequeño inconveniente.</p>
+        <a href="http://www.pronosticoslluvias.com/" title="Pronosticos lluvias" target="_blank">
+          <img src="img/screenLluvias.png" class="img-responsive col-lg-7 col-md-7 col-sm-7 col-xs-12 card-1" >
+        </a>
+        <p class="text-color col-lg-5 col-md-5 col-sm-5 col-xs-12" >Aprilis da una solución brindando un pronóstico de precipitaciones a nivel global utilizando las herramientas más avanzadas de modelización numérica.</p>
       </div>
     </li>
     <li>

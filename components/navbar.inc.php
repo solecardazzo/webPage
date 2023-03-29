@@ -12,7 +12,12 @@
       <div class="navbar-collapse collapse" id="navbar">
         <ul class="nav navbar-nav social-list">
           <li>
-            <a href="http://www.pronosticosheladas.com/" target="_blank">
+            <a href="https://www.pronosticoslluvias.com/" target="_blank" style="padding: 4px 2px;">
+              <img class="imagenprono" title="Pronosticos lluvias" height="20px" width="23px" onmouseout="this.src='img/logoLluvias.png';" onmouseover="this.src='img/logoLluviasNegro.png';" src="img/logoLluvias.png" aria-hidden="true"/>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.pronosticosheladas.com/" target="_blank">
               <img class="imagenprono" title="Pronosticos heladas" height="23px" width="20px" onmouseout="this.src='img/logoProno2.png';" onmouseover="this.src='img/logoPronoNegro.png';" src="img/logoProno2.png" aria-hidden="true"/>
             </a>
           </li>
@@ -24,6 +29,11 @@
           <li>
             <a href="https://www.youtube.com/channel/UCfZpQaq0w41K6dTTUQfEWOA" target="_blank">
               <i class="fa fa-youtube-play fa-2x" title="YouTube Aprilis" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/5493416139485" target="_blank">
+              <i class="fa fa-whatsapp fa-2x" title="WhatsApp Aprilis" aria-hidden="true"></i>
             </a>
           </li>
         </ul>
