@@ -33,7 +33,7 @@
         <div class="contacts-data">
           <a href="mailto:pronosticosheladas@gmail.com?Subject=Consulta%20">
             <i class="fa fa-paper-plane fa-2x" title="Mail Aprilis"></i>
-            <span class="contact-text" title="Mail Aprilis">pronosticosheladas@gmail.com</span>
+            <span class="contact-text" title="Mail Aprilis" style="word-break: break-all;">pronosticosheladas@gmail.com</span>
           </a>
         </div>
         <div class="contacts-data">
