@@ -4,7 +4,7 @@ $(document).ready(function(){
 	var clickedTab = $(".tabs > .active");
 	var tabWrapper = $(".tab__content");
 	var activeTab = tabWrapper.find(".active");
-	var activeTabHeight = activeTab.outerHeight();
+	var activeTabHeight = activeTab.outerHeight(true);
 
 	// Show tab on page load
 	activeTab.show();
@@ -39,7 +39,7 @@ $(document).ready(function(){
 			activeTab = $(".tab__content > .active");
 
 			// Update variable
-			activeTabHeight = activeTab.outerHeight();
+			activeTabHeight = activeTab.outerHeight(true);
 
 			// Animate height of wrapper to new tab height
 			tabWrapper.stop().delay(50).animate({

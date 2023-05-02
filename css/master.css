@@ -208,6 +208,8 @@ nav.navbar {
   left: 0;
   display: none;
   list-style: none;
+  padding: 10px;
+  margin: 10px;
 }
 .tab__content > li .content__wrapper {
   text-align: center;
