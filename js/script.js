@@ -6,6 +6,8 @@ $(document).ready(function(){
 	var activeTab = tabWrapper.find(".active");
 	var activeTabHeight = activeTab.outerHeight(true);
 
+	clickedTab.trigger('click');
+
 	// Show tab on page load
 	activeTab.show();
 
