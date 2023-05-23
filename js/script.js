@@ -4,14 +4,14 @@ $(document).ready(function(){
 	var clickedTab = $(".tabs > .active");
 	var tabWrapper = $(".tab__content");
 	var activeTab = tabWrapper.find(".active");
-	var activeTabHeight = activeTab.outerHeight(true);
-
+	
 	// Show tab on page load
 	activeTab.show();
 	clickedTab.trigger('click');
-
+	
+	var activeTabHeight = activeTab.outerHeight(true);
 	// Set height of wrapper on page load
-	//tabWrapper.height(activeTabHeight + 10);
+	tabWrapper.height(activeTabHeight + 10);
 
 	$(".tabs > li").on("click", function() {
 
