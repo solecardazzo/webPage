@@ -71,6 +71,15 @@
                     <p>El objetivo es capturar a partir del día 16 a 45 días en adelante las irrupciones polares capaces de favorecer la ocurrencia de heladas. La información que se brinda es cuantos días dentro de los intervalos de 10 días habrá condiciones favorables para la ocurrencia de heladas utilizando un ensamble de modelo climático (CFS).</p>
                 </div>
             </div>
+            <div class="feature-card">
+                <div class="icon">
+                    <img src="img/MapaRec.png" class="img-responsive zoom" >
+                </div>
+                <div class="description">
+                    <h2>Precipitación diaria</h2>
+                    <p>Son pronósticos de lluvia diaria utilizando el modelos del Centro Meteorológico Canadiense (CMC) o bien del Sistema de Pronóstico Global (GFS) para los próximos 9 días.</p>
+                </div>
+            </div>
         </section>
       </div>
     </li>

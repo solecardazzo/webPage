@@ -1,6 +1,20 @@
 <header class="clearfix" id="home">
   <nav class="navbar navbar-default navbar-fixed-top"  id="nav">
     <div class="container">
+    <div class="mob" id="navbar-mob">
+        <ul>
+          <li>
+            <a href="https://www.pronosticoslluvias.com/" target="_blank" style="padding: 4px 2px;">
+              <img title="Pronosticos lluvias" height="20px" width="23px" onmouseout="this.src='img/logoLluvias2.png';" src="img/logoLluvias2.png" aria-hidden="true" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.pronosticosheladas.com/" target="_blank">
+              <img title="Pronosticos heladas" height="23px" width="20px" onmouseout="this.src='img/logoProno3.png';" src="img/logoProno3.png" aria-hidden="true" />
+            </a>
+          </li>
+        </ul>
+      </div>
       <div class="navbar-header">
         <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
           <span class="sr-only">Toggle navigation</span>
